@@ -48,7 +48,7 @@ $ pip3 list | grep cryptography
 cryptography     36.0.1
 ```
 
-Running the python file now, shows us the usage message.
+Running the python script now, shows us the usage message.
 
 ```
 $ python3 ende.py 
