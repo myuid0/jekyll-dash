@@ -66,7 +66,7 @@ $ python3 ende.py -d flag.txt.en
 Please enter the password:
 ```
 
-We can simply pipe the password to it.
+We can pipe the password to it.
 
 ```
 $ cat pw.txt | python3 ende.py -d flag.txt.en
