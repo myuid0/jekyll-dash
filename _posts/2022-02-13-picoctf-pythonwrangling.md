@@ -56,6 +56,7 @@ Usage: ende.py (-e/-d) [file]
 ```
 
 `-e = encrypt (converting normal data into an unreadable form)`
+
 `-d = decrypt (converting the unreadable data into its original form)`
 
 All we have to do now is to use the python script to decrypt the `flag.txt.en` file.
