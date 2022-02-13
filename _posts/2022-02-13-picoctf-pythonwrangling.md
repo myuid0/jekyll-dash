@@ -20,6 +20,7 @@ pw.txt:      ASCII text
 ```
 
 The first file is a python script, then we have a password file, and finally we have the flag in encrypted format.
+
 If we try to run the python file we will get a module missing error.
 
 ```
@@ -28,4 +29,21 @@ Traceback (most recent call last):
   File "/home/myuid0/Documents/picoctf/generalskills/pythonwrangling/ende.py", line 4, in <module>
     from cryptography.fernet import Fernet
 ModuleNotFoundError: No module named 'cryptography'
+```
+
+We can simply install it using pip utility.
+
+```
+$ pip3 install cryptography
+Collecting cryptography
+  Using cached cryptography-36.0.1-cp36-abi3-manylinux_2_24_x86_64.whl (3.6 MB)
+Requirement already satisfied: cffi>=1.12 in /home/myuid0/.local/lib/python3.9/site-packages (from cryptography) (1.15.0)
+Requirement already satisfied: pycparser in /home/myuid0/.local/lib/python3.9/site-packages (from cffi>=1.12->cryptography) (2.21)
+Installing collected packages: cryptography
+Successfully installed cryptography-36.0.1
+```
+
+```
+$ pip3 list | grep cryptography
+cryptography     36.0.1
 ```
