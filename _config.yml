@@ -3,7 +3,9 @@ author: GitHub User
 email: miguel-gonzalez@gmx.de
 description: > # this means to ignore newlines until "show_exerpts:"
   CTF writeups. 
+  
   一个记录黑客技术的个人博客，供未来的ctfs使用。
+  
   Discord: myuid0#7633
 show_excerpts: false # set to true to show excerpts on the homepage
 
