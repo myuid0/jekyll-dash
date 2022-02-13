@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "picoCTF - Obedient Cat"
-description: My writeup on obedient cat challenge."
+description: My writeup on obedient cat challenge.
 tags: picoctf general_skills
 ---
 
