@@ -45,10 +45,10 @@ dash:
   rtl: false
 
   # Replaces the default avatar provider (gravatar)
-  #avatar_source: github
-  #github_username: bitbrain
+  avatar_source: github
+  github_username: myuid0
   #avatar_source: local
-  avatar_path: /assets/avatar.jpg
+  #avatar_path: /assets/avatar.jpg
 
 # Build settings
 # theme: jekyll-dash
