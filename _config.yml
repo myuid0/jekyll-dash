@@ -1,4 +1,4 @@
-title: dash
+title: myuid0
 author: GitHub User
 email: miguel-gonzalez@gmx.de
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -53,7 +53,7 @@ dash:
   #avatar_path: /assets/avatar.png
 
 # Build settings
-theme: jekyll-dash
+# theme: jekyll-dash
 
 plugins:
  - jekyll-feed
