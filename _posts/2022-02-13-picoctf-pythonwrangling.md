@@ -47,3 +47,27 @@ Successfully installed cryptography-36.0.1
 $ pip3 list | grep cryptography
 cryptography     36.0.1
 ```
+
+Running the python file now, shows us the usage message.
+
+```
+$ python3 ende.py 
+Usage: ende.py (-e/-d) [file]
+```
+
+`-e = encrypt (converting normal data into an unreadable form)`
+`-d = decrypt (converting the unreadable data into its original form)`
+
+All we have to do now is to use the python script to decrypt the `flag.txt.en` file.
+
+```
+$ python3 ende.py -d flag.txt.en
+Please enter the password:
+```
+
+We can simply pipe the password to it.
+
+```
+$ cat pw.txt | python3 ende.py -d flag.txt.en
+Please enter the password:picoCTF{4p0110_1n_7h3_h0us3_192ee2db}
+```
