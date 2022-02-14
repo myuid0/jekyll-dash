@@ -47,14 +47,16 @@ Pasting the lyrics gives us some ASCII numbers:
 
 ![](https://i.imgur.com/hokn4UN.png)
 
-By checking the ascii table, we can get the flag `114 -> r` I coded a python script that prints the flag.
+By checking the ASCII table, we can get the flag `114 -> r` 
+
+I coded a python script that prints the flag.
 
 ```python
 data = [114, 114, 114, 111, 99, 107, 110, 114, 110, 48, 49, 49, 51, 114]
 
 flag = ''.join(chr(i) for i in data)
 
-print(f'Flag -> picoCTF{{{flag}}}')
+print(f'Flag -> {flag}')
 ```
 
 ```
