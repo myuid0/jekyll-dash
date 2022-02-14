@@ -41,7 +41,7 @@ put This into CTF
 
 picoCTF provides us a hint: `Do you think you can master rockstar?` I googled around `rockstar decrypt` and gave me the answer! 
 
-There is a programming language called [Rockstar](https://codewithrockstar.com/). The official site provides an [interpreter](https://codewithrockstar.com/online).
+There is a programming language called [Rockstar](https://codewithrockstar.com/){:target="_blank"}. The official site provides an [interpreter](https://codewithrockstar.com/online){:target="_blank"}.
 
 Pasting the lyrics gives us some ASCII numbers:
 
