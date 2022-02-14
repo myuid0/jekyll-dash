@@ -61,5 +61,5 @@ print(f'Flag -> {flag}')
 
 ```
 $ python3 flag.py 
-Flag -> picoCTF{rrrocknrn0113r}
+Flag -> rrrocknrn0113r
 ```
