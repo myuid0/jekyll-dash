@@ -10,7 +10,7 @@ IP (Internet Protocol) address allows computers to send and receive data over th
 
 IP address is a 4 set of numbers from 0 to 255. Range -> 0.0.0.0 to 255.255.255.255
 
-# Types of IP address:
+# Types of IP address
 
 Public (outside of network): A public IP address is about the whole network. Every connected device has the same public IP address. Is provided to your router by your ISP. 
 
@@ -32,3 +32,10 @@ $ hostname -I
 Static: A static IP address is manually created and never changes.
 
 Dynamic: A dynamic IP address always keep changing automatically.
+
+# Port
+
+Port is a location where information is sent. Ports are software-based, each port is associated with a specific process or service.
+
+There are 65,535 ports, for example 22 -> SSH
+
