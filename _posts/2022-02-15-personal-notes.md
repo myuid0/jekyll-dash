@@ -4,6 +4,8 @@ title: "Personal Notes"
 description: My personal notes.
 ---
 
-# test
+# IP Address
 
-test
+IP (Internet Protocol) address allows computers to send and receive data over the internet. 
+
+IP address is a 4 set numbers from 0 to 255. Range -> 0.0.0.0 to 255.255.255.255
