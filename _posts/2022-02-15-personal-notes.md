@@ -39,3 +39,12 @@ Port is where information is sent. Ports are software-based, each port is associ
 
 There are 65,535 ports, for example 22 -> SSH
 
+# Encrypt, Encode..
+
+encrypt: converting normal data into an unreadable form
+
+decrypt: converting the unreadable data into its original form
+
+encode: converting into a special format for transfer or storage purposes
+
+decode: converting encoded data back into its original form
