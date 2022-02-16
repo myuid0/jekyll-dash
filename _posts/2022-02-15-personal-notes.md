@@ -45,6 +45,6 @@ encrypt: converting normal data into an unreadable form
 
 decrypt: converting the unreadable data into its original form
 
-encode: converting into a special format for transfer or storage purposes
+encode: converting data into a special format for transfer or storage purposes
 
 decode: converting encoded data back into its original form
